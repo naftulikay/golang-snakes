@@ -1,0 +1,8 @@
+{
+  "mysql_host": "from_cfg:localhost",
+  "mysql_port": 1024,
+  "mysql_user": "from_cfg:root",
+  "mysql_password": "from_cfg:password",
+  "mysql_database": "from_cfg:default",
+  "env": "from_cfg:dev"
+}
