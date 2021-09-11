@@ -25,7 +25,7 @@ jobs:
       - uses: actions/cache@v2
         with:
           key: "${{ runner.os }}-${{ env.CACHE_NAME }}-${{ env.CACHE_VERSION }}-${{ hashFiles('go.sum') }}"
-          restore_keys: |
+          restore-keys: |
             ${{ runner.os }}-${{ env.CACHE_NAME }}-${{ env.CACHE_VERSION }}
             ${{ runner.os }}-${{ env.CACHE_NAME }}
             ${{ runner.os }}
@@ -45,7 +45,7 @@ jobs:
       - uses: actions/cache@v2
         with:
           key: "${{ runner.os }}-${{ env.CACHE_NAME }}-${{ env.CACHE_VERSION }}-${{ hashFiles('go.sum') }}"
-          restore_keys: |
+          restore-keys: |
             ${{ runner.os }}-${{ env.CACHE_NAME }}-${{ env.CACHE_VERSION }}
             ${{ runner.os }}-${{ env.CACHE_NAME }}
             ${{ runner.os }}
@@ -64,7 +64,7 @@ jobs:
       - uses: actions/cache@v2
         with:
           key: "${{ runner.os }}-${{ env.CACHE_NAME }}-${{ env.CACHE_VERSION }}-${{ hashFiles('go.sum') }}"
-          restore_keys: |
+          restore-keys: |
             ${{ runner.os }}-${{ env.CACHE_NAME }}-${{ env.CACHE_VERSION }}
             ${{ runner.os }}-${{ env.CACHE_NAME }}
             ${{ runner.os }}
